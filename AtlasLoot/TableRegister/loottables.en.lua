@@ -1197,6 +1197,8 @@ end
 	AtlasLoot_TableNames["CraftedWeapons2"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["CraftedWeapons3"] = { AL["Crafted Epic Weapons"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Legendaries"] = { AL["Legendary Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Zullcoin"] = { AL["ZullCoin - Heroisch Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["Zullcoin2"] = { AL["ZullCoin - Heroisch Items"], "AtlasLootWotLK" };
   -- Mounts
 	AtlasLoot_TableNames["MountsAlliance1"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["MountsAlliance2"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };

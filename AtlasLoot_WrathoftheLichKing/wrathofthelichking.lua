@@ -10535,14 +10535,52 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	-------------------
 
 	AtlasLoot_Data["Zullcoin"] = {
-		{ 1, 47253, "", "=q4=Boneshatter Vambraces", "=ds=", "5 ZullCoin" };
-		{ 2, 47277, "", "=q4=Bindings of the Autumn Willow", "=ds=", "5 ZullCoin" };
-		{ 3, 47280, "", "=q4=Wristwraps of Cloudy Omen", "=ds=", "5 ZullCoin" };
-		{ 4, 47281, "", "=q4=Bracers of the Silent Massacre", "=ds=", "5 ZullCoin" };
-		{ 5, 47294, "", "=q4=Bracers of the Broken Bond", "=ds=", "5 ZullCoin" };
-		{ 6, 47298, "", "=q4=Armguards of the Shieldmaiden", "=ds=", "5 ZullCoin" };
-		{ 7, 47313, "", "=q4=Armbands of Dark Determination", "=ds=", "5 ZullCoin" };
-		{ 8, 47324, "", "=q4=Bindings of the Ashen Saint", "=ds=", "5 ZullCoin" };
+		{ 1, 47272, "", "=q4=Charge of the Eredar", "=ds=", "5 ZullCoin"};
+		{ 2, 47297, "", "=q4=The Executioner's Vice", "=ds=", "5 ZullCoin"};
+		{ 3, 47305, "", "=q4=Legionnaire's Gorget", "=ds=", "5 ZullCoin"};
+		{ 4, 47307, "", "=q4=Cry of the Val'kyr", "=ds=", "5 ZullCoin"};
+		{ 6, 47256, "", "=q4=Drape of the Refreshing Winds", "=ds=", "5 ZullCoin"};
+		{ 7, 47257, "", "=q4=Cloak of the Untamed Predator", "=ds=", "5 ZullCoin"};
+		{ 8, 47275, "", "=q4=Pride of the Demon Lord", "=ds=", "5 ZullCoin"};
+		{ 9, 47291, "", "=q4=Shroud of Displacement", "=ds=", "5 ZullCoin"};
+		{ 10, 47320, "", "=q4=Might of the Nerub", "=ds=", "5 ZullCoin"};
+		{ 11, 47328, "", "=q4=Maiden's Adoration", "=ds=", "5 ZullCoin"};
+		{ 13, 47253, "", "=q4=Boneshatter Vambraces", "=ds=", "5 ZullCoin"};
+		{ 14, 47277, "", "=q4=Bindings of the Autumn Willow", "=ds=", "5 ZullCoin"};
+		{ 15, 47280, "", "=q4=Wristwraps of Cloudy Omen", "=ds=", "5 ZullCoin"};
+		{ 16, 47281, "", "=q4=Bracers of the Silent Massacre", "=ds=", "5 ZullCoin"};
+		{ 17, 47294, "", "=q4=Bracers of the Broken Bond", "=ds=", "5 ZullCoin"};
+		{ 18, 47298, "", "=q4=Armguards of the Shieldmaiden", "=ds=", "5 ZullCoin"};
+		{ 19, 47313, "", "=q4=Armbands of Dark Determination", "=ds=", "5 ZullCoin"};
+		{ 20, 47324, "", "=q4=Bindings of the Ashen Saint", "=ds=", "5 ZullCoin"};
+		{ 22, 47258, "", "=q4=Belt of the Tenebrous Mist", "=ds=", "5 ZullCoin"};
+		{ 23, 47268, "", "=q4=Bloodbath Girdle", "=ds=", "5 ZullCoin"};
+		{ 24, 47265, "", "=q4=Binding of the Ice Burrower", "=ds=", "5 ZullCoin"};
+		{ 25, 47283, "", "=q4=Belt of Bloodied Scars", "=ds=", "5 ZullCoin"};
+		{ 26, 47286, "", "=q4=Belt of Biting Cold", "=ds=", "5 ZullCoin"};
+		{ 27, 47299, "", "=q4=Belt of the Pitiless Killer", "=ds=", "5 ZullCoin"};
+		{ 28, 47311, "", "=q4=Waistguard of Deathly Dominion", "=ds=", "5 ZullCoin"};
+		{ 29, 47323, "", "=q4=Girdle of the Forgotten Martyr", "=ds=", "5 ZullCoin"};
+		Next = "Zullcoin2";
+		Back = "SETMENU";
+	};
+
+	AtlasLoot_Data["Zullcoin2"] = {
+		{ 1, 47262, "", "=q4=Boots of the Harsh Winter", "=ds=", "5 ZullCoin"};
+		{ 2, 47263, "", "=q4=Sabatons of the Courageous", "=ds=", "5 ZullCoin"};
+		{ 3, 47269, "", "=q4=Dawnbreaker Sabatons", "=ds=", "5 ZullCoin"};
+		{ 4, 47284, "", "=q4=Icewalker Treads", "=ds=", "5 ZullCoin"};
+		{ 5, 47293, "", "=q4=Sandals of the Mourning Widow", "=ds=", "5 ZullCoin"};
+		{ 6, 47295, "", "=q4=Sabatons of Tremoring Earth", "=ds=", "5 ZullCoin"};
+		{ 7, 47296, "", "=q4=Greaves of Ruthless Judgment", "=ds=", "5 ZullCoin"};
+		{ 8, 47321, "", "=q4=Boots of the Icy Floe", "=ds=", "5 ZullCoin"};
+		{ 9, 47312, "", "=q4=Greaves of the Saronite Citadel", "=ds=", "5 ZullCoin"};
+
+		{ 11, 47271, "", "=q4=Solace of the Fallen", "=ds=", "50 ZullCoin"};
+		{ 12, 47290, "", "=q4=Juggernaut's Vitality", "=ds=", "50 ZullCoin"};
+		{ 13, 47303, "", "=q4=Death's Choice", "=ds=", "50 ZullCoin"};
+		{ 14, 47316, "", "=q4=Reign of the Dead", "=ds=", "50 ZullCoin"};
+		Prev = "Zullcoin";
 		Back = "SETMENU";
 	};
 
