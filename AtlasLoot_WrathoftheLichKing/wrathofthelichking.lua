@@ -11704,4 +11704,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 28, 50474, "", "=q4=Shrapnel Star", "=ds=#w11#", "30 #eoffrost#" };
 		Prev = "EmblemofFrost";
 		Back = "SETMENU";
+	};	
+	
+-----------------------------
+--- ZullCoin - Heroisch Items ---
+-----------------------------
+
+	AtlasLoot_Data["ZullCoinHC"] = {
+		{ 1, 47253, "", "=q4=Boneshatter Vambraces", "=ds=", "5 ZullCoin" };
+		{ 2, 47277, "", "=q4=Bindings of the Autumn Willow", "=ds=", "5 ZullCoin" };
+		{ 3, 47280, "", "=q4=Wristwraps of Cloudy Omen", "=ds=", "5 ZullCoin" };
+		{ 4, 47281, "", "=q4=Bracers of the Silent Massacre", "=ds=", "5 ZullCoin" };
+		{ 5, 47294, "", "=q4=Bracers of the Broken Bond", "=ds=", "5 ZullCoin" };
+		{ 6, 47298, "", "=q4=Armguards of the Shieldmaiden", "=ds=", "5 ZullCoin" };
+		{ 7, 47313, "", "=q4=Armbands of Dark Determination", "=ds=", "5 ZullCoin" };
+		{ 8, 47324, "", "=q4=Bindings of the Ashen Saint", "=ds=", "5 ZullCoin" };
+		Back = "SETMENU";
 	};
