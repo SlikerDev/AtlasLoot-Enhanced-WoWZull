@@ -5,7 +5,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 
 	AtlasLoot_Data["SETMENU"] = {
-		{ 2, "ZULLHCMENU", "INV_Jewelry_Amulet_01", "=ds="..AL["ZullCoin - Heroisch Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+		{ 2, "Zullcoin", "Spell_Holy_ChampionsBond", "=ds="..AL["ZullCoin - Heroisch Items"], ""};
 		{ 3, "EMBLEMOFFROSTMENU", "inv_misc_frostemblem_01", "=ds="..AL["Emblem of Frost Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 4, "EMBLEMOFTRIUMPHMENU", "spell_holy_summonchampion", "=ds="..AL["Emblem of Triumph Rewards"], "=q5="..AL["Wrath of the Lich King"]};
 		{ 5, "EMBLEMOFCONQUESTMENU", "Spell_Holy_ChampionsGrace", "=ds="..AL["Emblem of Conquest Rewards"], "=q5="..AL["Wrath of the Lich King"]};
@@ -80,11 +80,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["EMBLEMOFFROSTMENU"] = {
 		{ 2, "EmblemofFrost", "inv_misc_frostemblem_01", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], ""};
 		{ 17, "T10SET", "inv_misc_frostemblem_01", "=ds="..AL["Tier 10 Sets"], "=q5="..AL["10/25 Man"]};
-		Back = "SETMENU";
-	};
-
-	AtlasLoot_Data["ZULLHCMENU"] = {
-		{ 2, "ZullCoinHC", "INV_Jewelry_Amulet_01", "=ds="..BabbleInventory["Armor"].." & "..AL["Trinket"], ""};
 		Back = "SETMENU";
 	};
 
