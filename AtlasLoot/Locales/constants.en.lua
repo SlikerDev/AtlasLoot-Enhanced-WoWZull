@@ -151,6 +151,7 @@ if AL then
 	AL["Emblem of Triumph Rewards"] = true;
 	AL["Emblem of Frost Rewards"] = true;
 	AL["ZullCoin - Heroisch Items"] = true;
+	AL["ZullCoin - Schlachtzug Items"] = true;
 	AL["BoE World Epics"] = true;
 	AL["Dungeon 1/2 Sets"] = true;
 	AL["Dungeon 3 Sets"] = true;

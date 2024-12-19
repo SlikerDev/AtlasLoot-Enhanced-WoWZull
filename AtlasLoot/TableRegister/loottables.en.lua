@@ -1199,6 +1199,7 @@ end
 	AtlasLoot_TableNames["Legendaries"] = { AL["Legendary Items"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Zullcoin"] = { AL["ZullCoin - Heroisch Items"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["Zullcoin2"] = { AL["ZullCoin - Heroisch Items"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["ZullcoinRaid"] = { AL["ZullCoin - Schlachtzug Items"], "AtlasLootWotLK" };
   -- Mounts
 	AtlasLoot_TableNames["MountsAlliance1"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["MountsAlliance2"] = { AL["Alliance Mounts"], "AtlasLootWotLK" };
