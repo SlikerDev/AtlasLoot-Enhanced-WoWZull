@@ -5834,7 +5834,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 17, 50198, "", "=q4=Needle-Encrusted Scorpion", "=ds=#s14#"};
 		{ 19, 50203, "", "=q4=Blood Weeper", "=ds=#h1#, #w4#"};
 		{ 20, 50210, "", "=q4=Seethe", "=ds=#h3#, #w10#"};
-		{ 21, 808107, "", "ZullCoin - Heroisch", "=ds=", "2x"};
+		{ 21, 808107, "", "ZullCoin - Heroisch", "=ds=", "1-2x"};
 		Prev = "FoSBronjahm";
 		Next = "FHTrashMobs";
 	};
@@ -5910,7 +5910,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 19, 50268, "", "=q4=Rimefang's Claw", "=ds=#h1#, #w10#"};
 		{ 20, 50267, "", "=q4=Tyrannical Beheader", "=ds=#h2#, #w1#"};
 		{ 21, 50273, "", "=q4=Engraved Gargoyle Femur", "=ds=#w9#"};
-		{ 22, 808107, "", "ZullCoin - Heroisch", "=ds=", "1x"};
+		{ 22, 808107, "", "ZullCoin - Heroisch", "=ds=", "1-2x"};
 		Prev = "PoSKrickIck";
 		Next = "FHTrashMobs";
 	};
