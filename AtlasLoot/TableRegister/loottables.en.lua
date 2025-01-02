@@ -495,6 +495,8 @@ end
   -- Gruul's Lair
 	AtlasLoot_TableNames["GruulsLairHighKingMaulgar"] = { BabbleBoss["High King Maulgar"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["GruulGruul"] = { BabbleBoss["Gruul the Dragonkiller"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["GruulsLairHighKingMaulgarHC"] = { "High King Maulgar 25HC", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["GruulGruulHC"] = { "Gruul the Dragonkiller 25HC", "AtlasLootBurningCrusade" };
   -- HC: Blood Furnace
 	AtlasLoot_TableNames["HCFurnaceMaker"] = { BabbleBoss["The Maker"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["HCFurnaceBroggok"] = { BabbleBoss["Broggok"], "AtlasLootBurningCrusade" };

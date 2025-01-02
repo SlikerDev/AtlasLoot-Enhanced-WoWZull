@@ -1358,7 +1358,33 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 23, 28794, "", "=q4=Axe of the Gronn Lords", "=ds=#h2#, #w1#", "", "6.73%"};
 		{ 24, 28825, "", "=q4=Aldori Legacy Defender", "=ds=#w8#", "", "2.99%"};
 		{ 25, 28826, "", "=q4=Shuriken of Negation", "=ds=#w11#", "", "16.21%"};
-		Prev = "GruulsLairHighKingMaulgar";
+		Prev = "GruulsLairHighKingMaulgarHC";
+	};
+
+	AtlasLoot_Data["GruulsLairHighKingMaulgarHC"] = {
+		{ 1, 81645, "", "=q4=Brünierte Armschienen des bleichen Waldes", "=ds=#s4#", "", ""};
+		{ 2, 81666, "", "=q4=Schal des bleichen Waldes", "=ds=#s4#", "", ""};
+		{ 3, 81674, "", "=q4=Kampfkolben des bleichen Waldes", "=ds=#s4#", "", ""};
+		{ 4, 90337, "", "=q4=Bordplanke des Marinesoldaten", "=ds=#s4#", "", ""};
+		{ 5, 81966, "", "=q4=Gesteppte Kordel", "=ds=#s4#", "", ""};
+		{ 6, 90338, "", "=q4=Lederhelm des Friedensbrechers", "=ds=#s4#", "", ""};
+		{ 7, 90343, "", "=q4=Ringpanzerhelm des Friedensbrechers", "=ds=#s4#", "", ""};
+		{ 9, 49908, "", "=q4=Urtümliches Saronit", "=ds=#s4#", "", "1x"};
+		{ 10, 49426, "", "=q4=Emblem des Frosts", "=ds=#s4#", "", "2x"};
+		Next = "GruulGruulHC";
+	};
+
+	AtlasLoot_Data["GruulGruulHC"] = {
+		{ 1, 63714, "", "=q4=Goldflusshalskette", "=ds=#s4#", "", ""};
+		{ 2, 63779, "", "=q4=Zinnobergürtel", "=ds=#s4#", "", ""};
+		{ 3, 80742, "", "=q4=Jadehexenstulpen", "=ds=#s4#", "", ""};
+		{ 4, 81640, "", "=q4=Schwere Stulpen des bleichen Waldes", "=ds=#s4#", "", ""};
+		{ 5, 82024, "", "=q4=Steppenschienbeinschützer", "=ds=#s4#", "", ""};
+		{ 6, 90287, "", "=q4=Balghelm des Friedensbrechers", "=ds=#s4#", "", ""};
+		{ 7, 90340, "", "=q4=Seidene Gugel des Friedensbrechers", "=ds=#s4#", "", ""};
+		{ 9, 116383, "", "=q4=Blutschreitergronnling", "=ds=#s4#", "", ""};
+		{ 10, 808106, "", "=q4=ZullCoin - Schlachtzug", "=ds=#s4#", "", "2x"};
+		Next = "GruulsLairHighKingMaulgarHC";
 	};
 
 		-------------------------------------------

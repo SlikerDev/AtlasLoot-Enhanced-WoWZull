@@ -630,6 +630,8 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Gruul"] = {
 		{ "", "GruulsLairHighKingMaulgar" },
 		{ "", "GruulGruul" },
+		{ "", "GruulsLairHighKingMaulgarHC" },
+		{ "", "GruulGruulHC" },
 	},
 	["HCRamparts"] = {
 		{ "", "HCRampWatchkeeper" },

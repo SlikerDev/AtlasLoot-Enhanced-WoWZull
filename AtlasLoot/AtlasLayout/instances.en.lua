@@ -685,11 +685,12 @@ AtlasLootNewBossButtons = {
     GruulsLair = {
         "";
         "GruulsLairHighKingMaulgar";
-        "";
+        "GruulsLairHighKingMaulgarHC";
         "";
         "";
         "";
         "GruulGruul";
+        "GruulGruulHC";
         };
 
     HCBloodFurnace = {
@@ -2491,11 +2492,12 @@ AtlasLootBossButtons = {
     GruulsLair = {
         "";
         "GruulsLairHighKingMaulgar";
-        "";
+        "GruulsLairHighKingMaulgarHC";
         "";
         "";
         "";
         "GruulGruul";
+        "GruulGruulHC";
         };
 
     HCBloodFurnace = {
