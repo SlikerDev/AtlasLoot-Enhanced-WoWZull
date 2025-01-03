@@ -1358,7 +1358,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 23, 28794, "", "=q4=Axe of the Gronn Lords", "=ds=#h2#, #w1#", "", "6.73%"};
 		{ 24, 28825, "", "=q4=Aldori Legacy Defender", "=ds=#w8#", "", "2.99%"};
 		{ 25, 28826, "", "=q4=Shuriken of Negation", "=ds=#w11#", "", "16.21%"};
-		Prev = "GruulsLairHighKingMaulgarHC";
+		Prev = "GruulsLairHighKingMaulgar";
+		Next = "GruulsLairHighKingMaulgarHC";
 	};
 
 	AtlasLoot_Data["GruulsLairHighKingMaulgarHC"] = {
@@ -1371,6 +1372,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 90343, "", "=q4=Ringpanzerhelm des Friedensbrechers", "=ds=#s4#", "", ""};
 		{ 9, 49908, "", "=q4=Urtümliches Saronit", "=ds=#s4#", "", "1x"};
 		{ 10, 49426, "", "=q4=Emblem des Frosts", "=ds=#s4#", "", "2x"};
+		Prev = "GruulGruul";
 		Next = "GruulGruulHC";
 	};
 
@@ -1384,7 +1386,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, 90340, "", "=q4=Seidene Gugel des Friedensbrechers", "=ds=#s4#", "", ""};
 		{ 9, 116383, "", "=q4=Blutschreitergronnling", "=ds=#s4#", "", ""};
 		{ 10, 808106, "", "=q4=ZullCoin - Schlachtzug", "=ds=#s4#", "", "2x"};
-		Next = "GruulsLairHighKingMaulgarHC";
+		Prev = "GruulsLairHighKingMaulgarHC";
 	};
 
 		-------------------------------------------
